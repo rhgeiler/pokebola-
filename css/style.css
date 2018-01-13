@@ -1,0 +1,59 @@
+html{
+    font-size: 16px;
+}
+body{
+    background: powderblue; 
+}
+.pokebol{
+    background:#fff;
+    width: 20rem;
+    height: 20rem; 
+    border-radius: 50%;
+}
+.pokebol::before{
+    content: '';
+    background:#ff1c1c;
+    width:20rem;
+    height: 10rem;
+    border-radius:10rem 10rem 0 0;
+    position: absolute;
+}
+.pokebol::after{
+    content: 'POKEBOLS' ;
+    background:#ff1c1c;
+    width: 10rem;
+    height: 1rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    
+
+}
+.poke{
+     background: #333;
+     width:20rem ;
+     height:0.5rem ;
+     margin-top: 10rem;
+     position: absolute;
+}
+.poke::before{
+    content: '';
+    background: #333;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -2.5rem;
+    margin-left: 8rem;
+
+}
+.poke::after{
+    content: '';
+    background: #fff;
+    width: 4rem;
+    height: 4rem;
+    position:absolute;
+    margin-top: -2rem;
+    margin-left: 8.5rem;
+    border-radius: 50%;
+}
